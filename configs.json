@@ -1,0 +1,60 @@
+data = `{
+
+    "shortname": "Jc Wu",
+
+    "fullname": "Jingcheng Wu",
+
+    "colors": {
+        "_comment": "Four colors that define your theme. From light to dark.",
+        "color1": "whitesmoke",
+        "color2": "#4FBDBA",
+        "color3": "#35858B",
+        "color4": "#072227"
+    },
+
+    "_comment": "Create your own resume with https://www.favicon.cc/",
+    "favicon_path": "images/favicon.ico",
+
+    "resume_path": "files/Jingcheng Wu.pdf",
+
+    "_comment": "The profile image has to be square",
+    "profile_path": "images/profile.jpg",
+
+    "buttons": {
+        "_comment": "Check https://fontawesome.com/ for more icons",
+        "btn1": {
+            "icon": "fab fa-github-square",
+            "link": "https://github.com/Wu-Jingcheng"
+        }, 
+        "btn2": {
+            "icon": "fab fa-linkedin",
+            "link": "https://www.linkedin.com/in/wu-jingcheng/"
+        }
+    },
+
+    "skills": {
+        "primary":{
+            "Web Development": {
+                "dscpt": "UI Design, front end and back end development",
+                "img": "images/web-dev.jpg"
+            },
+            "Machine Learning": {
+                "dscpt": "Build and train models to perform complex tasks",
+                "img": "images/ml.jpg"
+            }
+        },
+
+
+        "_comment": "in percentage (out of 100)",
+        "skillbar": {
+            "Python": 100,
+            "Java": 90,
+            "C/C++": 90,
+            "JavaScript": 90,
+            "CSS": 80,
+            "Bootstrap": 80
+        }
+    }
+}`;
+
+configs = JSON.parse(data);

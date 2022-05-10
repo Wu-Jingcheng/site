@@ -1,0 +1,13 @@
+body {
+    color: white;
+}
+
+.image-container {
+    text-align: center;
+    background-color: var(--color3);
+}
+
+h1 {
+    vertical-align: middle;
+    margin: auto;
+}

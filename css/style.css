@@ -1,0 +1,85 @@
+/* some import variables */
+
+:root {
+    --color1: unset;
+    --color2: unset;
+    --color3: unset;
+    --color4: unset;
+}
+
+body {
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.top-section {
+    background-color: var(--color2);
+    position: relative;
+    min-height: 50rem;
+    margin-bottom: 3.5rem;
+}
+
+img#profile {
+    height: 20rem;
+    width : 20rem;
+    border-radius: 10rem;
+    margin: 10rem auto;
+    display: block;
+    transition: transform .7s ease-in-out;
+    border:5px solid var(--color3); 
+}
+img#profile:hover {
+    transform: rotate(360deg) scale(1.3);
+    border:5px solid var(--color4);
+}
+
+h1 {
+    margin: auto;
+    padding: 10rem 2rem 3rem 10rem;
+}
+
+.skills-section {
+    min-height: 50rem;
+    color: var(--color4);
+    padding: 10rem;
+}
+
+.skills-section img{
+    width: 80%;
+    border-radius: 100%;
+    border: 3px solid var(--color2);
+}
+
+.skills-section h2 {
+    color: var(--color3);
+}
+
+.skills-section h5 {
+    color: var(--color3);
+}
+
+.skills-section p {
+    color: var(--color2);
+}
+
+.skills-section .progress-bar {
+    background-color: var(--color3);
+}
+
+.posts-section {
+    min-height: 50rem;
+    background-color: var(--color2);
+}
+
+div.button-div {
+    display: block;
+}
+
+.btn {
+    min-width: 10rem;
+}
+
+#btn-container {
+    margin-bottom: 10rem;
+}
