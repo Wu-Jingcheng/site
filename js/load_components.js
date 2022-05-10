@@ -38,3 +38,6 @@ document.getElementById("footer").innerHTML = `
 <p>© Copyright Orsome Site Template</p>
 <p>© Site Template by Jc Wu</p>
 `
+
+// self intro
+document.getElementById("intro-content").innerHTML = configs.self_intro

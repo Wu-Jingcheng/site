@@ -20,6 +20,9 @@ data = `{
     "_comment": "The profile image has to be square",
     "profile_path": "images/profile.jpg",
 
+    "_comment": "These words would be used for self intro in index.html",
+    "self_intro": "I'm Jingcheng Wu, a student at SCS, CMU.<br> Great ideas are crazy until they come true.",
+
     "buttons": {
         "_comment": "Check https://fontawesome.com/ for more icons",
         "btn1": {
